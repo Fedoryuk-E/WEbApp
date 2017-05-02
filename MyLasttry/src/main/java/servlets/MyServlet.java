@@ -32,7 +32,7 @@ public class MyServlet extends HttpServlet {
             String varTextB = "It JSP.";
             request.setAttribute("textB", varTextB);
      
-            RequestDispatcher dispatcher = request.getRequestDispatcher("/starter.jsp");
+            RequestDispatcher dispatcher = request.getRequestDispatcher("/index.jsp");
             dispatcher.forward(request, response);
     }
 }
